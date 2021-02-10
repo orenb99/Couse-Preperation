@@ -6,7 +6,6 @@ function Accumulator(startingValue) {
         this.value+=parseInt(prompt("how much to add?"));
     }    
 }
-
 let acc=new Accumulator(2);
 acc.read();
 acc.read();
