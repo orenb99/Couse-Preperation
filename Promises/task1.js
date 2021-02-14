@@ -7,4 +7,5 @@ function delay(ms) {
     }) 
   }
   
-  delay(3000).then(() => alert('runs after 3 seconds'));
+  delay(3000)
+.then(() => alert('runs after 3 seconds'));
